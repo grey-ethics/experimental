@@ -12,8 +12,10 @@ export default function App() {
 
   return (
     <main style={{ fontFamily: 'system-ui, sans-serif', padding: '3rem' }}>
-      <h1>Hello World</h1>
-      <p>Backend says: <strong>{message}</strong></p>
+      <h1 style={{ color: 'red' }}>Hello World</h1>
+      <p>
+        Backend says: <strong>{message}</strong>
+      </p>
     </main>
   )
 }
